@@ -1,4 +1,6 @@
 # Introduction to Imperative Programming
+	
+## The Basics 
 
 * A **Computer** is undementally a machine that can save data and do simple operations on them.
 * The operations are executed very fast (millions per second)
@@ -15,18 +17,18 @@
 		* Almost all failures are attributed to faulty algorithms, not the computer themselves.
 	* Universality
 		* The breakthrough is attribution to John von Neumann in 1945, who had the idea of saving the data and program on the same medium.
-	
 
-**The purpose of this course**
+### Problems and Algorithms
 
-* Provide basic conceptual knowledge needed for various specializations.
-* Provide some basic hands-on experience with coding.
-* Use PASCAL to do the above. 
-* Preach quality coding:
-	* Good programming style
-	* Testing
-	* analytical quality assurance.
-
-	
-## The Basics 
-
+* Everything starts from a **RWP** *real world problem* 
+* The **RWP** is distilled into the *informal problem description*
+* The problem description is then refined into the **Problem Specification**. 
+	* remove contradictions
+	* remove any incompleteness
+	* remove any vagueness
+* **Algorithms** are a group of rules to get a desired outcome from a certain input. Conditions:
+	* *finite description:* has be writen in a finite text, and can be broken into elemantary pieces called *steps*
+	* *executable:* every step has to be executable.
+	* *terminating:* has to come to an end after a specific number of steps
+	* *deterministic:* 
+* An algorithm solves a class of problems and can be tuned by changing specific parameters.
