@@ -115,10 +115,23 @@ To sum up:
 	* Scheme (1987)
 
 	
+### The Computer
 
+#### Computer Architecture
 
+* Pioneered by the *con-Neumann-Computer*
+	* **Control Unit**
+		* Heart of the computer
+		* loads the program
+		* decodes the instructions
+		* interprets the instructions
+	* **Memory**
+		* 
+	* **Arithmetic Logic Unit**
+	* **Input**
+	* **Output**
+* 
 
-
-
+TODO: continue this part.
 
 
