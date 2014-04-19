@@ -50,3 +50,75 @@
 	* **COBOL** *COmmon Business Oriented Language*, the name speaks for itself. Was aimed more at managing large datasets than doing complex calculations.
 	* The dominating languages today are C++, C#, Java, C, ADA. (I'm basing that on my course-text. Looking at Github you will see that Javascript is the domminant language, followed by Ruby, and then Java, while Go is increasing in popularity and will probably replace Java and ruby sooner or later, clojure and haskel are also on the rise.) http://www.githubarchive.org/
 
+### From Problem to (computer)-solution
+
+To sum up:
+
+1. The starting point is the *real world problem*
+2. Through abstraction and concentration the problem is condensed down to the *problem discription*
+3. The discription is then formalised into the *problem specification*
+4. Based on the above, the *algorithm* is then developed.
+5. The *algorithm* is then implemented in a *3GL* as a *program*.
+6. The *program* is then *compiled* into a *machine program*
+7. The *parameters* are suplied, and the end-result is returned.
+
+* In cases of massive applications, proving the correctness of an algorithm/programm becomes too expensive, and in some cases impossible. In such cases we revert to *testing*.
+* Creating proper *documentation* is also an essential part of the workflow. 
+
+### Programming Paradigms
+
+
+**imperative programming:**
+* lat. imperare = to instruct
+* The idea is to give the computer step by step instructions to solve a problem.
+* The parasigm is a result of the *von-Neumann-Architecture*
+* In order to deviate from the step by step instructions in a dynamic manner, Goto (jump instructions) are used.
+* The instructions process *data* that is stored in memory.
+* Data is usually saved to a *variable*
+* a **variable** is a *logical* memmory-space. Logical here means that the programer doesn't have to worry about the technical aspects of it.
+* Two forms of the impertaive programming paradigm  are:
+	* **Procedural imperative programming**
+		* The data and the program's instructions are handled seperately.
+		* A *procedure* sums together a subset of instructions.
+		* These procedures can then be *called*
+		* This increases the compactness of the programm, and provides as easier overview.
+		* examples:
+			* C
+			* COBOL
+			* FORTRAN
+			* Pascal 
+			* PL/1
+	* **objectoriented imparative programming**
+		* Data and the operations that can be executed on that data are summed up as *objects*
+		* objects usually represent real-life entities. (Bank accounts, customers, ...etc)
+		* The focus is on the Data.
+		* The structure is on summing together Objects, and *modularity*
+		* examples:
+			* C++
+			* C#
+			* Java
+			* Smalltalk
+
+**declarative programming**
+* The desired result is declared, and a program finds the solution.
+* example: MySQL
+
+**logical prgramming**
+* usus mathematical logic to present and solve problems
+* example: PROLOG
+
+**functional programming**
+* uses mathematical functions to formulate programs.
+* functions can be made up of more functions.
+* examples:
+	* List (1969)
+	* Scheme (1987)
+
+	
+
+
+
+
+
+
+
