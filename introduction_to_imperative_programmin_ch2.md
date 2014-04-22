@@ -121,7 +121,7 @@ Pascal supports two different types of numbers.
 ````
 ( 2000 + 0.7 ) – 2000	= ( 2.000·10^3 + 7.000·10^(-1) ) – 2.000·10^3							= ( 2.000·10^3 + 0.000·10^3) – 2.000·10^3							= 0(2000 – 2000) + 0.7 	= (2.000·10^3 – 2.000·10^3) + 7.000·10^(– 1)							= 0.0000·10^0 + 7.000·10^(–1)							= 7.000·10^(–1)							= 0.7
 ````
-	* the adition and subtraction is done on the mantise, and therefore the base and exponent need to be equal.
+* the adition and subtraction is done on the mantise, and therefore the base and exponent need to be equal.
 * There are two ways to express **real** numbers in pascal:
 	* *fixed point form*. Examples: `0.0, 0.123, -12.3 and 12.34567` and not `0., .12,`
 	* *denormal* or *non-normalized floating points*: `0E0, 1.23E+04, 123E-4 and 0.12345678E9`
