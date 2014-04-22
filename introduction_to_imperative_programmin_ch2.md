@@ -118,7 +118,7 @@ Pascal supports two different types of numbers.
 * A floating point is described as: `f = m•b^e` where f is the number, *m* is called the *mantise*, *b* is the *base*, and *e* is the *exponent*
 * Due to the limited storage capacity of memmory cell, there are limitation on the numbers that **real** numbers can represent. 
 * The limitation on the decimal digits results in round-off errors. For more information see https://en.wikipedia.org/wiki/Round-off_error. For example, taking the base as 10, and asusming a 4 digit limit on the manstise and a 2 digit limit on the exponent:
-	* ````pascal
+````
 ( 2000 + 0.7 ) – 2000	= ( 2.000·10^3 + 7.000·10^(-1) ) – 2.000·10^3							= ( 2.000·10^3 + 0.000·10^3) – 2.000·10^3							= 0(2000 – 2000) + 0.7 	= (2.000·10^3 – 2.000·10^3) + 7.000·10^(– 1)							= 0.0000·10^0 + 7.000·10^(–1)							= 7.000·10^(–1)							= 0.7
 ````
 	* the adition and subtraction is done on the mantise, and therefore the base and exponent need to be equal.
