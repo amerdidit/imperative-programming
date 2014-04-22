@@ -126,8 +126,80 @@ Pascal supports two different types of numbers.
 	* *fixed point form*. Examples: `0.0, 0.123, -12.3 and 12.34567` and not `0., .12,`
 	* *denormal* or *non-normalized floating points*: `0E0, 1.23E+04, 123E-4 and 0.12345678E9`
 
-**The Syntax Diagram for a real numver:**
+**The Syntax Diagram for a real number:**
 ![The Syntax Diagram for a real number](img/syntaxdiagram-pascal-program-real-number.png)
+
+### Describing The Data
+
+**The Syntax Diagram for the decleration part:**
+![The Syntax Diagram for the decleration part](img/syntaxdiagram-pascal-program-decleration-part.png)
+
+* The *decleration part* declares/defines all previously undefined identifiers that get used in the *statements part*
+* Either part of the *decleration part* can be left out, what matters in pascal is that *constants* are declared prior to *variables*
+
+#### Datatypes
+
+* A **datatype** defines a set of values and the coresponding operations that can be executed on them.
+* Pascal requires that each dataobject be assigned a specific *Type*. This means that Pascal is a *Typed Programming Language*.
+* Pascal's standart types: (all *unstructured types*)
+	* `integer`
+	* `real`
+	* `char`
+	* `boolean`
+
+##### The standard type integer
+
+* Has already been described above.
+* has the following standard arithmatic operations:
+	* `+`		addition
+	* `-`		subtraction
+	* `*`		multiplication
+	* `div`	division without rest
+	* `mod`	modulus operation. returns the remainder of a division.
+* The above are called `dyadic operators`, since they require 2 values.
+* **Standard functions:**
+	* `abs (x)`		absolute function
+	* `sqr (x)`		squared fucntion
+	* `succ (x)` 	=x+1 
+	* `pred (x)`	=x-1
+	* `odd (x)`		returns `true` if x is odd
+
+##### The standard type real
+
+* has the following standard arithmatic operations:
+	* `+`		addition
+	* `-`		subtraction
+	* `*`		multiplication
+	* `/`		division
+* **Standard functions:**
+	* `abs (x)`	* `sqr (x)`	* `sin (x)`	* `cos (x)`	* `arctan (x)`	* `exp (x)`	* `ln (x)`	* `sqrt (x)`
+
+##### The standard type char
+
+* denotes all characters that can be represented by pascal
+* are expresed by surrounding them apostrophes: `'a' '9' 'B' '?' ' '`
+* an apostrophe is represented as 4 apostrophes: `''''`
+* **Standard functions:**
+	* `ord (c)` the ordinal of the character 
+	* `chr (i)` the character with the ordinal i 
+	* `succ (c)` 
+	* `pred (c)`
+* The above functions depend on the enocoding used. 
+
+##### The standard type boolean
+
+* values are `true` and `false`
+* the **boolean operators**:
+	* `and` 	logical ang
+	* `or` 	logical or
+	* `not` 	logical negation
+* **Rational Operators** return boolean values when used on all unstructured types.
+	* `=` 	equal	* `<>` 	not equal	* `<` 	smaller than	* `<=` 	not bigger	* `>` 	bigger than	* `>=` 	not smaller
+
+##### The predefined Datatype String
+
+* a collection of `chars` not exceeding length 255.
+* Not defined in standard pascal, but in most other compilers (such as turbo-pascal)
 
 
 
