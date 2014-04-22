@@ -201,6 +201,35 @@ Pascal supports two different types of numbers.
 * a collection of `chars` not exceeding length 255.
 * Not defined in standard pascal, but in most other compilers (such as turbo-pascal)
 
+#### Declaring constants
+
+**The Syntax Diagram for the constant definition part:**
+![The Syntax Diagram for the decleration part](img/syntaxdiagram-pascal-program-constant-definition-part.png)
+
+**The Syntax Diagram for the value:**
+![The Syntax Diagram for the decleration part](img/syntaxdiagram-pascal-program-value.png)
+	
+Using constants has the follwing advantages:
+* Using the identifier is more verbose
+* Human error is reduced by simplifing the term that needs to get repeated
+* Allows for easier refactoring of code if needed.
+
+**Example**
+
+````pascal
+program Circumfurance (input, output);{ calculate the circumfurance with a given radius }
+constPI = 3.141592654;
+varRadius,Umfang : real;
+begin	writeln ('Calculating the circumfurance.');	write ('Input the radius: ');	readln (Radius);	Circ := 2.0 * PI * Radius;	writeln ('The circumfurance: ', Circ)end. { Circumfurance }
+````
+
+The above program would look something like this for the user:
+
+````
+Calculating the circumfurance.Input the radius:  22.5The circumfurance: 1.4137167E02
+````
+	
+* Constants can also hold characters. for example: `const HEY = 'hello there!'`
 
 
 
