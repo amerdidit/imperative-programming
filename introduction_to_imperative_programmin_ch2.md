@@ -102,7 +102,7 @@ program SehrEinfach (output);{ 	Dies ist das erste Programm-Beispiel
 
 Pascal supports two different types of numbers.
 
-#### `integers`
+#### integers
 **The Syntax Diagram for a comment:**
 ![The Syntax Diagram for a comment](img/syntaxdiagram-pascal-program-comment.png)
 
@@ -112,7 +112,7 @@ Pascal supports two different types of numbers.
 	* `maxint` is a standard-identifier for the largest representable integer. for 15 bit systems, this would be: `2^15 - 1 = 32767`
 	* All intergers lie in the interval: `I = [-maxint - 1, maxint]`
 
-#### `real`
+#### real
 
 * **real** numbers are Floating point numbers. For more details on floating point arithmetic see: https://en.wikipedia.org/wiki/Floating_point
 * A floating point is described as: `f = m•b^e` where f is the number, *m* is called the *mantise*, *b* is the *base*, and *e* is the *exponent*
@@ -128,6 +128,7 @@ Pascal supports two different types of numbers.
 
 **The Syntax Diagram for a real numver:**
 ![The Syntax Diagram for a real number](img/syntaxdiagram-pascal-program-real-number.png)
+
 
 
 
