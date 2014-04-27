@@ -231,7 +231,16 @@ Calculating the circumfurance.Input the radius:  22.5The circumfurance: 1.4137
 	
 * Constants can also hold characters. for example: `const HEY = 'hello there!'`
 
+<!-- TODO: Add:
+						3.5.3 to end of 3
+-->
+#### Declaring variables
 
+#### Uniqueness of declarations
+
+### Describing The Actions
+
+### Simple Self-defining DataTypes
 
 
 
