@@ -1,8 +1,6 @@
 # Introduction to Imperative Programming
 ## Programming Style
 
-<!-- currently this is from part one, and will be updated later.-->
-
 *Note: Some rules are bold. Avoiding these rules would lead to getting points subtrackted in my course at uni. I personally am against some. Feel free to judge for yourself.*
 
 ### Choosing the identifier
@@ -10,7 +8,8 @@
 Should be as short as possible, but long enough to convey the meaning of the object or function. 
 
 * Should be verbose and related to the porblem being solved.
-* **Use CamelCase starting with a capital letter.**
+* Identifiers should be written in accordance with proper grammar and spelling.
+* **Use CamelCase**
 * **Constants are all UPPERCASE**
 * **Type identifiers get a t in the beginning like: `tType`**
 * use nouns for variables and constants
@@ -51,6 +50,7 @@ if <condition> thenbegin<statments>endelse { if not <condition> }begin<sta
 
 * group together decleration and definition blocks.
 * statementgroups of more than 10 lines should get broken up into seperate groups.
+* function declerations are seperated by an empty line.
 
 ### Comments
 
@@ -63,9 +63,20 @@ Comments are an important part of any program. A program lacking in comments, is
 * complex statement blocks should get commented.
 * for long control statements, leave a comment after the final `end` indicating the start and structure of the control statement.
 * do <u>not</u> add useless comments like `i := i + 1; {erhoehe i um 1}` that only repeat the code.
+* At important points in a code, the state of the program is described. for example: `{ At this point the field has been ... }`
+
+### Functions
+	
+* **Every function hea should contain a short comment describing the task, and commenting on the parameters if needed**
+* each parameter is written on its own line.
+* A comment with the functions name is placed at the end of the function decleration 
+* **The layout of the function conforms with the layout of the program** 
 
 ### Miscelanious
 
 * No implicit type conversion if possible.
 * selfdefined datatypes should not be implicitly defined.
+* When chaining `if` statements, only the `else` statements shall be chained, if possible.
+* if a programming language offers different loop statements, use the ones appropreate for the situation.
+* **The loop counter is not minipulated inside of a `for` statement**
 
