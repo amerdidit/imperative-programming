@@ -1,0 +1,21 @@
+# Summary
+
+* [The Basics](1_the_basics/README.md)
+    * [Problems And Algorithms](1_the_basics/problems_and_algorithms.md)
+    * [From Problem To (Computer)-Solution](1_the_basics/from_problem_to_solution.md)
+    * [Programming Lanuguages](1_the_basics/programming_languages.md)
+    * [Programming Paradigms](1_the_basics/programming_paradigms.md)
+* [Pascal (Part 1)](2_pascal_part_1/README.md)
+    * [Program Structure](2_pascal_part_1/program_structure.md)
+    * [Identifiers](2_pascal_part_1/Identifiers.md)
+    * [Numbers](2_pascal_part_1/numbers.md)
+    * [Describing The Data](2_pascal_part_1/describing_the_data.md)
+    * [Describing The Actions](2_pascal_part_1/describing_the_actions)
+    * [Simple Self-defining DataTypes](2_pascal_part_1/simple_self-defining_datatypes)
+* [Programming Style](0_programming_style/README.md)
+    * [Choosing The Identifier](0_programming_style/choosing_the_identifier)
+    * [Code Layout](0_programming_style/code_layout.md)
+    * [Comments](0_programming_style/comments)
+    * [Functions](0_programming_style/functions,md)
+    * [Miscelanious](0_programming_style/miscelanious.md)
+
