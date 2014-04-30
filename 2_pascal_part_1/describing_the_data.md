@@ -137,3 +137,17 @@ The circumfurance: 1.4137167E02
 * Possible types are the *stanndard types* `integer`, `real`, `char`, `boolean`, and the *predefined type* `string`, and  *Self-defined types*.
 
 ## Uniqueness of declarations
+
+* Pascal demands that identifiers are unique whithin their area of validity.
+* Standard pascal does not difrentiate between uppercase and lowercase characters and the following would be wrong:
+
+````pascal
+    const
+    MIN = 0;
+
+    var
+    x,
+    y : integer;
+    min : real;
+````
+* Make sure that the identifiers are unique and easy to differentiate from each other, most importantly to avoid confusion and minimise potential human errors.
