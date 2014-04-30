@@ -1,2 +1,5 @@
 
 .DS_Store
+
+# Ingore the book built by GitBookIO
+_book/
