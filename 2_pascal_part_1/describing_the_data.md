@@ -127,9 +127,13 @@ The circumfurance: 1.4137167E02
 
 * Constants can also hold characters. for example: `const HEY = 'hello there!'`
 
-<!-- TODO: Add:
-						3.5.3 to end of 3
--->
 ## Declaring variables
+
+**The Syntax Diagram for the variable decleration part:**
+![The Syntax Diagram for the variable decleration part](img/syntaxdiagram-pascal-program-variable_decleration-part.png)
+
+* As opposed to constants, variables can change their value during the execution of a program.
+* The values a variable can represent, and the operations that are permissable are defined by the type of the variable.
+* Possible types are the *stanndard types* `integer`, `real`, `char`, `boolean`, and the *predefined type* `string`, and  *Self-defined types*.
 
 ## Uniqueness of declarations
