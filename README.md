@@ -1,6 +1,8 @@
 
 # Imperative-programming
 
+Read the book here: http://amerdidit.gitbooks.io/imperative-programming-notes/
+
 Notes taken from my introduction to imperative programming course at the FernUniversität Hagen in the Summer Semester 2014.
 
 ## The purpose of this course
