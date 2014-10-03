@@ -1,7 +1,9 @@
 
 # Imperative-programming
 
-Read the book here: http://amerdidit.gitbooks.io/imperative-programming-notes/
+[![Build Status](https://www.gitbook.io/button/status/book/amerdidit/imperative-programming-notes)](https://www.gitbook.io/book/amerdidit/imperative-programming-notes/activity)
+
+I've also published this as a gitbook, read the book here: http://amerdidit.gitbooks.io/imperative-programming-notes/
 
 Notes taken from my introduction to imperative programming course at the FernUniversität Hagen in the Summer Semester 2014.
 
