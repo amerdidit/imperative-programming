@@ -45,7 +45,7 @@ set then to type until var while with
 ````
 
 **The Syntax Diagram for an identifier:**
-![The Syntax Diagram for an identifier](img/syntaxdiagram-pascal-program-identifier.png)
+![The Syntax Diagram for an identifier](../img/syntaxdiagram-pascal-program-identifier.png)
 
 Note:
 * `LongWord` and `longword` are identical identifiers.
@@ -63,4 +63,4 @@ end.
 ````
 
 **The Syntax Diagram for a comment:**
-![The Syntax Diagram for a comment](img/syntaxdiagram-pascal-program-comment.png)
+![The Syntax Diagram for a comment](../img/syntaxdiagram-pascal-program-comment.png)
