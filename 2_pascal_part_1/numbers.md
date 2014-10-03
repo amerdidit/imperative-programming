@@ -4,7 +4,7 @@ Pascal supports two different types of numbers.
 
 ## Integers
 **The Syntax Diagram for a comment:**
-![The Syntax Diagram for a comment](..//syntaxdiagram-pascal-program-comment.png)
+![The Syntax Diagram for a comment](../img/syntaxdiagram-pascal-program-comment.png)
 
 * The limit to the number of digits allowed in an integer is imposed by the memmory cell.
 	* 16 bit(2byte) would allow 2^16 integer numbers to represented.
@@ -33,4 +33,4 @@ Pascal supports two different types of numbers.
 	* *denormal* or *non-normalized floating points*: `0E0, 1.23E+04, 123E-4 and 0.12345678E9`
 
 **The Syntax Diagram for a real number:**
-![The Syntax Diagram for a real number](..//syntaxdiagram-pascal-program-real-number.png)
+![The Syntax Diagram for a real number](../img/syntaxdiagram-pascal-program-real-number.png)

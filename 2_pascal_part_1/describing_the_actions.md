@@ -1,7 +1,7 @@
 # Describing The Actions
 
 **The Syntax Diagram for the statement part:**
-![The Syntax Diagram for the statement part](..//syntaxdiagram-pascal-program-statement-part.png)
+![The Syntax Diagram for the statement part](../img/syntaxdiagram-pascal-program-statement-part.png)
 
 * After the *decleration part* defines the *constants* and *types* and declares the *variables* the *statement part* offers the *statements* that will use and minipulate the above.
 * Pascal is also refered to as a *sequential* programming language, since the statements are always executed one after the other, and never in parallel.
@@ -29,14 +29,14 @@ end. { Circumfurance }
 * Pascal offers both *simple statements* as well as *structured statements*.
 
 **The Syntax Diagram for a statement:**
-![The Syntax Diagram for a statement part](..//syntaxdiagram-pascal-program-statement.png)
+![The Syntax Diagram for a statement part](../img/syntaxdiagram-pascal-program-statement.png)
 
 * Using the label is an idication of a poor programming style, and we will be completely ignoring it.
 
 ## Simple Statments
 
 **The Syntax Diagram for a statement:**
-![The Syntax Diagram for a statement part](..//syntaxdiagram-pascal-program-statement.png)
+![The Syntax Diagram for a statement part](../img/syntaxdiagram-pascal-program-statement.png)
 
 * The *empty statement* is the simplest statements, and is represented by a straight line in the above syntax diagram. Its used for structuring the code visually.
 * The most important statement is the *assignment statement* is a hallmark of all imperative programming. It looks like this `x := expr`
@@ -66,7 +66,7 @@ Keep the following in mind as well:
 * `begin` and `end` are used almost as parenthesis for compount statements, and so a *compound statement* in pascal has the form:
 
 **The Syntax Diagram for a statement:**
-![The Syntax Diagram for a statement part](..//syntaxdiagram-pascal-program-compound-statement.png)
+![The Syntax Diagram for a statement part](../img/syntaxdiagram-pascal-program-compound-statement.png)
 
 * The *statement part* of a program has the same syntax as a *compound statement*.
 * The following is a valid *compound statement*:
@@ -202,7 +202,7 @@ They're pretty awesome, and allow what is refered to as *branching*
     * Controls the execution of the code depending on user input
 
 **The Syntax Diagram for an if-statement:**
-![The Syntax Diagram for an if-statement part](..//syntaxdiagram-pascal-program-if-statement.png)
+![The Syntax Diagram for an if-statement part](../img/syntaxdiagram-pascal-program-if-statement.png)
 
 * The *condition* has to be a *boolean expression*
 * In the simple form the *condition* is followed by the `then` *reserved word* and the statement that is to be executed if the *condition* evaluates to `true`.

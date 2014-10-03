@@ -1,7 +1,7 @@
 # Describing The Data
 
 **The Syntax Diagram for the decleration part:**
-![The Syntax Diagram for the decleration part](..//syntaxdiagram-pascal-program-decleration-part.png)
+![The Syntax Diagram for the decleration part](../img/syntaxdiagram-pascal-program-decleration-part.png)
 
 * The *decleration part* declares/defines all previously undefined identifiers that get used in the *statements part*
 * Either part of the *decleration part* can be left out, what matters in pascal is that *constants* are declared prior to *variables*
@@ -85,10 +85,10 @@
 ## Declaring constants
 
 **The Syntax Diagram for the constant definition part:**
-![The Syntax Diagram for the decleration part](..//syntaxdiagram-pascal-program-constant-definition-part.png)
+![The Syntax Diagram for the decleration part](../img/syntaxdiagram-pascal-program-constant-definition-part.png)
 
 **The Syntax Diagram for the value:**
-![The Syntax Diagram for the decleration part](..//syntaxdiagram-pascal-program-value.png)
+![The Syntax Diagram for the decleration part](../img/syntaxdiagram-pascal-program-value.png)
 
 Using constants has the follwing advantages:
 * Using the identifier is more verbose
@@ -130,7 +130,7 @@ The circumfurance: 1.4137167E02
 ## Declaring variables
 
 **The Syntax Diagram for the variable decleration part:**
-![The Syntax Diagram for the variable decleration part](..//syntaxdiagram-pascal-program-variable_decleration-part.png)
+![The Syntax Diagram for the variable decleration part](../img/syntaxdiagram-pascal-program-variable_decleration-part.png)
 
 * As opposed to constants, variables can change their value during the execution of a program.
 * The values a variable can represent, and the operations that are permissable are defined by the type of the variable.
