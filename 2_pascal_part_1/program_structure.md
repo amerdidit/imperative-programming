@@ -29,4 +29,4 @@ end.
 * The above prgram is called VerySimple
 * the identifier `output` indicated that the data output should go to *standardout*, usually the screen.
 * The *decleration part* is empty in this case
-* The *statemenet part* contains the output-instruction `writeln` which a *standard procedure* in pascal and doesnt need to be declared.
+* The *statemenet part* contains the output-instruction `writeln` which is a *standard procedure* in pascal and doesnt need to be declared.

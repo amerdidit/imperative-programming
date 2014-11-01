@@ -3,8 +3,8 @@
 Pascal supports two different types of numbers.
 
 ## Integers
-**The Syntax Diagram for a comment:**
-![The Syntax Diagram for a comment](../img/syntaxdiagram-pascal-program-comment.png)
+**The Syntax Diagram for an integer:**
+![The Syntax Diagram for an integer](../img/syntaxdiagram-pascal-program-integer.png)
 
 * The limit to the number of digits allowed in an integer is imposed by the memmory cell.
 	* 16 bit(2byte) would allow 2^16 integer numbers to represented.
@@ -13,6 +13,9 @@ Pascal supports two different types of numbers.
 	* All intergers lie in the interval: `I = [-maxint - 1, maxint]`
 
 ## Real
+
+**The Syntax Diagram for a real number:**
+![The Syntax Diagram for a real number](../img/syntaxdiagram-pascal-program-real-number.png)
 
 * **real** numbers are Floating point numbers. For more details on floating point arithmetic see: https://en.wikipedia.org/wiki/Floating_point
 * A floating point is described as: `f = m•b^e` where f is the number, *m* is called the *mantise*, *b* is the *base*, and *e* is the *exponent*
@@ -31,6 +34,3 @@ Pascal supports two different types of numbers.
 * There are two ways to express **real** numbers in pascal:
 	* *fixed point form*. Examples: `0.0, 0.123, -12.3 and 12.34567` and not `0., .12,`
 	* *denormal* or *non-normalized floating points*: `0E0, 1.23E+04, 123E-4 and 0.12345678E9`
-
-**The Syntax Diagram for a real number:**
-![The Syntax Diagram for a real number](../img/syntaxdiagram-pascal-program-real-number.png)
