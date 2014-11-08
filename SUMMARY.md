@@ -17,6 +17,7 @@
 * [Pascal (Part 2)](pascal_part_2/README.md)
    * [Loops](pascal_part_2/loops.md)
    * [Structured Data Types](pascal_part_2/structured_data_types.md)
+   * [Functions](pascal_part_2/functions.md)
 * [Programming Style](0_programming_style/README.md)
    * [Choosing The Identifier](0_programming_style/choosing_the_identifier.md)
    * [Code Layout](0_programming_style/code_layout.md)
