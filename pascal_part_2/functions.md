@@ -24,4 +24,4 @@ end; { max }
 * **The Function Call Syntax Diagram**
 ![The Function Call Syntax Diagram](../img/syntaxdiagram-pascal-function-designator.png)
 * Standard functions like `sqr, abs, pred, succ` can accept different types as parameters, and will behave differetly for each. This is not possible for self defining functions.
-* 
+*
