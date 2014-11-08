@@ -25,6 +25,6 @@
    * [Choosing The Identifier](0_programming_style/choosing_the_identifier.md)
    * [Code Layout](0_programming_style/code_layout.md)
    * [Comments](0_programming_style/comments.md)
-   * [Functions](0_programming_style/functions.md)
+   * [Functions and Procedures](0_programming_style/functions.md)
    * [Miscelanious](0_programming_style/miscelanious.md)
 

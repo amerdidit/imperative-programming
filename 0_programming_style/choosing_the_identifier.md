@@ -7,8 +7,10 @@ Should be as short as possible, but long enough to convey the meaning of the obj
 * **Use CamelCase**
 * **Constants are all UPPERCASE**
 * **Type identifiers get a t in the beginning like: `tType`**
+* **Identifiers for pointers start with tRef**
+* **Identifiers of formal parameters start `in`, `out`, or `io`**
 * use nouns for variables and constants
-* use verbs for functions or procedures
+* use verbs for functions or procedures and pointers
 * use adjectives or adverbs for booleans
 
 ## **Abreviations:**

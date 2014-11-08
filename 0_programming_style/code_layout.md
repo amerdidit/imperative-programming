@@ -30,4 +30,4 @@ end { if <condition> };
 
 * group together decleration and definition blocks.
 * statementgroups of more than 10 lines should get broken up into seperate groups.
-* function declerations are seperated by an empty line.
+* function and procedure declerations are seperated by an empty line.
