@@ -21,6 +21,7 @@
 * [Pascal (Part 3)](pascal_part_3/README)
    * [Procedures](pascal_part_3/procedures.md)
    * [Dynamic Data Structures](pascal_part_3/dynamic_data_structures.md)
+   * [Recursion](pascal_part_3/recursion.md)
 * [Programming Style](0_programming_style/README.md)
    * [Choosing The Identifier](0_programming_style/choosing_the_identifier.md)
    * [Code Layout](0_programming_style/code_layout.md)

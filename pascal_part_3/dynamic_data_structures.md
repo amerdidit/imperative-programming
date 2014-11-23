@@ -56,7 +56,25 @@ begin
     pointer^.next := outRefStart;
     outRefStart := pointer;
     readln (number)
-  end { while-loop }
+  end { while-loop
 end; { BuildList }
 ````
 
+## Binary Trees
+
+* Offers better search than a linear list. The worst case for finding an element in a linear list is that you have to go through all of it. Binary Trees offer a more intelligest Search, Insert, Remove approaches.
+* A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
+* A tree with a non-empty node set has two characteristics:
+    * There exists one node, that has no parents and is called the root.
+    * Every node is reachable from the root through only one succession of sides.
+
+````
+type
+tRefBinTree = ^tBinTree;
+tBinTree =  record
+               info : integer;
+               left : tRefBinTree;
+               right : tRefBinTree
+            end;
+````
+* A **Binary Search Tree** has the left child always smaller that the parent, the right child bigger.
