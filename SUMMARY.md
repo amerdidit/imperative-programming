@@ -28,4 +28,5 @@
    * [Comments](0_programming_style/comments.md)
    * [Functions and Procedures](0_programming_style/functions.md)
    * [Miscelanious](0_programming_style/miscelanious.md)
+* [Pascal (Part 4)](pascal_part_4)
 
